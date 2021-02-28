@@ -6,6 +6,7 @@ public class Main {
 	System.out.println("Hello World!");
 
 	Human human1 = new Human("Jan", "Nowak","Janitor",46);
+	Human human2 = new Human("Maciej", "Sierpinski","QA",32);
 
     }
 }

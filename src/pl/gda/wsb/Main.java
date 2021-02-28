@@ -9,6 +9,7 @@ public class Main {
 
 	Human human1 = new Human("Jan", "Nowak","Janitor",46);
 	Human human2 = new Human("Maciej", "Sierpinski","QA",32);
+	Human human3 = new Human("Robert", "Nowik","QA",19);
     Animal animal1 = new Animal("Tiger","Asia",130);
     Animal animal2 = new Animal("Elephant","Africa",1800);
     Phone phone1 = new Phone("Galaxy S10+","Samsung");
@@ -31,6 +32,7 @@ public class Main {
         ArrayList<Human> humanList= new ArrayList<>();
         humanList.add(human1);
         humanList.add(human2);
+        humanList.add(human3);
         for (Human human : humanList){System.out.println(human.firstName);}
 }
 }

@@ -1,5 +1,7 @@
 package pl.gda.wsb;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -23,5 +25,12 @@ public class Main {
     } else {
         System.out.println(human2.firstName + " is older");
     }
+    StringBuilder animaldesc = new StringBuilder("The heaviest animal is "). append(animal2.name);
+    System.out.println(animaldesc);
+
+        ArrayList<Human> humanList= new ArrayList<>();
+        humanList.add(human1);
+        humanList.add(human2);
+        for (Human human : humanList){System.out.println(human.firstName);}
 }
 }

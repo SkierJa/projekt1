@@ -17,5 +17,11 @@ public class Main {
         } else {
             System.out.println(animal2.name + " is heavier");
         }
+
+    if (human1.age > human2.age) {
+        System.out.println(human1.firstName + " is older");
+    } else {
+        System.out.println(human2.firstName + " is older");
     }
+}
 }

@@ -6,7 +6,7 @@ public class Human {
     String position;
     int age;
     Animal pet;
-    String car;
+    Car car;
 
 
     public Human(String firstName,
@@ -17,6 +17,18 @@ public class Human {
         this.lastName = lastName;
         this.position = position;
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Human{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", position='" + position + '\'' +
+                ", age=" + age +
+                ", pet=" + pet +
+                ", car='" + car + '\'' +
+                '}';
     }
 }
 

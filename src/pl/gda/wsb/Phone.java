@@ -8,5 +8,13 @@ public class Phone {
         this.model = model;
         this.brand = brand;
     }
+
+    @Override
+    public String toString() {
+        return "Phone{" +
+                "model='" + model + '\'' +
+                ", brand='" + brand + '\'' +
+                '}';
+    }
 }
 

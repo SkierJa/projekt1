@@ -21,4 +21,15 @@ public class Animal {
 
     }
 
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", region='" + region + '\'' +
+                ", species='" + species + '\'' +
+                ", weight=" + weight +
+                ", DefaultTiger=" + DefaultTiger +
+                ", DefaultElephant=" + DefaultElephant +
+                '}';
+    }
 }

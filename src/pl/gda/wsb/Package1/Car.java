@@ -1,4 +1,6 @@
-package pl.gda.wsb;
+package pl.gda.wsb.Package1;
+
+import pl.gda.wsb.Producer;
 
 public class Car {
     String color;

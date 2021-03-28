@@ -1,5 +1,7 @@
 package pl.gda.wsb;
 
+import pl.gda.wsb.Package1.Car;
+
 public class Human {
     String firstName;
     String lastName;

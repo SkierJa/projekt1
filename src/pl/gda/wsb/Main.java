@@ -1,4 +1,6 @@
 package pl.gda.wsb;
+import pl.gda.wsb.Package1.Car;
+import pl.gda.wsb.Package1.Phone;
 
 import java.util.ArrayList;
 

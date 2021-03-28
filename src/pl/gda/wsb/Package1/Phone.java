@@ -1,4 +1,4 @@
-package pl.gda.wsb;
+package pl.gda.wsb.Package1;
 
 public class Phone {
     String model;

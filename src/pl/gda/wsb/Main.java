@@ -14,7 +14,7 @@ public class Main {
     Animal animal2 = new Animal("Elephant","Africa");
     Phone phone1 = new Phone("Galaxy S10+","Samsung");
     Phone phone2 = new Phone("iPhone 6s","Apple");
-    Car car1 = new Car ("Astra", "Opel");
+    Car car1 = new Car ("Astra", Producer.Opel);
     if (animal1.weight > animal2.weight) {
             System.out.println(animal1.name + " is heavier");
         } else {

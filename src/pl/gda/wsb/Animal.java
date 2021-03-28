@@ -3,11 +3,22 @@ package pl.gda.wsb;
 public class Animal {
     String name;
     String region;
-    int weight;
+    final String species = null;
+    public Double weight;
+    Double DefaultTiger=200.0;
+    Double DefaultElephant=2000.0;
 
-    public Animal(String name, String region, int weight) {
+    public void feed() {weight+=1; System.out.println("Weight incresed!");}
+    public void takeForAWalk() {weight-=1; System.out.println("Weight decresed!");}
+
+
+    public Animal(String name, String region) {
         this.name = name;
         this.region = region;
-        this.weight = weight;
+        if (name.equals("Tiger")) { weight=DefaultTiger;}
+            else if (name.equals("Elephant")) { weight=DefaultElephant;}
+
+
     }
+
 }

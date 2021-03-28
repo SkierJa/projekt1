@@ -10,8 +10,8 @@ public class Main {
 	Human human1 = new Human("Jan", "Nowak","Janitor",46);
 	Human human2 = new Human("Maciej", "Sierpinski","QA",32);
 	Human human3 = new Human("Robert", "Nowik","QA",19);
-    Animal animal1 = new Animal("Tiger","Asia",130);
-    Animal animal2 = new Animal("Elephant","Africa",1800);
+    Animal animal1 = new Animal("Tiger","Asia");
+    Animal animal2 = new Animal("Elephant","Africa");
     Phone phone1 = new Phone("Galaxy S10+","Samsung");
     Phone phone2 = new Phone("iPhone 6s","Apple");
 
@@ -34,5 +34,8 @@ public class Main {
         humanList.add(human2);
         humanList.add(human3);
         for (Human human : humanList){System.out.println(human.firstName);}
+        animal1.feed();
+        animal2.takeForAWalk();
 }
+
 }
